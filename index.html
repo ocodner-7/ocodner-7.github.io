@@ -19,7 +19,7 @@
   <p>This is a website about my journey to become a software engineer </p> 
 </div>
 
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark navbar sticky-top">
   <a class="navbar-brand" href="#">Navbar</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
@@ -103,7 +103,39 @@
       <br>
       <h2>Leyton Sixth Form</h2>
       <h5>My college</h5>
-      <div><img src="..." class="img-fluid" alt="Responsive image"></div>
+      <div>
+        <div><div id="slideshow-2" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="slideshow" data-slide-to="0" class="active"></li>
+              <li data-target="slideshow" data-slide-to="1"></li>
+              <li data-target="slideshow" data-slide-to="2"></li>
+            </ul>
+          
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="LSC image 1.jpg" alt="Image 4">
+              </div>
+              <div class="carousel-item">
+                <img src="LSC image 2.jpg" alt="Image 5">
+              </div>
+              <div class="carousel-item">
+                <img src="LSC image 3.jpg" alt="Image 6">
+              </div>
+            </div>
+          
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#slideshow-2" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#slideshow-2" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+        </div>
+      </div>
       <p>Some text..</p>
       <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
     </div>
